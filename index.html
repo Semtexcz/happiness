@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hodnocení činností</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+</head>
+<body>
+    <h1>Tabulka činností seřazených podle nejšťastnějších</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Činnost</th>
+                <th>Zábavnost (1-10)</th>
+                <th>Smysluplnost (1-10)</th>
+                <th>Celkové skóre</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="high-score"><td>Sex / Intimní aktivity</td><td>10</td><td>10</td><td>20</td></tr>
+            <tr class="high-score"><td>Společenské aktivity (socializace)</td><td>9</td><td>8</td><td>17</td></tr>
+            <tr class="high-score"><td>Fyzická aktivita (cvičení)</td><td>9</td><td>7</td><td>16</td></tr>
+            <tr class="high-score"><td>Dobrovolnictví a péče o druhé</td><td>6</td><td>10</td><td>16</td></tr>
+            <tr><td>Duchovní aktivity</td><td>5</td><td>9</td><td>14</td></tr>
+            <tr><td>Hobby a koníčky</td><td>7</td><td>7</td><td>14</td></tr>
+            <tr><td>Relaxace a odpočinek</td><td>8</td><td>5</td><td>13</td></tr>
+            <tr><td>Jídlo</td><td>8</td><td>5</td><td>13</td></tr>
+            <tr><td>Pití alkoholu / Party</td><td>9</td><td>4</td><td>13</td></tr>
+            <tr><td>Studium / školení</td><td>3</td><td>9</td><td>12</td></tr>
+            <tr><td>Hraní videoher</td><td>8</td><td>4</td><td>12</td></tr>
+            <tr><td>Placená práce</td><td>4</td><td>8</td><td>12</td></tr>
+            <tr><td>Nakupování pro radost</td><td>7</td><td>3</td><td>10</td></tr>
+            <tr class="low-score"><td>Domácí práce</td><td>2</td><td>4</td><td>6</td></tr>
+            <tr class="low-score"><td>Osobní hygiena</td><td>2</td><td>3</td><td>5</td></tr>
+            <tr class="low-score"><td>Dojíždění</td><td>1</td><td>2</td><td>3</td></tr>
+            <tr class="low-score"><td>Používání sociálních sítí</td><td>2</td><td>1</td><td>3</td></tr>
+            <tr class="low-score"><td>Být nemocný</td><td>1</td><td>1</td><td>2</td></tr>
+        </tbody>
+    </table>
+    <div id="chart-container" style="width: 80%; height: 500px; margin: auto; padding-top: 50px;"></div>
+    <script src="scatter_plot.js"></script> <!-- Odkaz na tvůj JS soubor -->
+</body>
+</html>
