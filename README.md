@@ -1,5 +1,3 @@
-Děkuji za upřesnění! Provedu rešerši vědecké literatury za posledních 20 let a zjistím, které činnosti jsou pro dospělé okolo 30 let nejšťastnější a nejméně šťastné. Ohodnotím jejich zábavnost a smysluplnost, pokud to bude možné na základě vědeckých studií, případně kvalitativní analýzou. Výsledky pak sestavím do žebříčku. Jakmile budu mít hotovo, dám ti vědět!
-
 # Nejšťastnější a nejméně šťastné činnosti dospělých – přehled výzkumů
 
 ## Úvod: Jak měříme „štěstí“ během dne  
